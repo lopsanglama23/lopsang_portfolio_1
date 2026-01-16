@@ -23,7 +23,7 @@ Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 // Admin Routes
 Route::prefix('admin')->middleware(['auth', 'verified'])->name('admin.')->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    
+
     Route::resource('about', AboutController::class);
     Route::resource('skills', SkillController::class);
     Route::resource('projects', ProjectController::class);
@@ -38,6 +38,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+// Route for the Portfolio page
+
+Route::get('/view', function(){
+    return view('react-view');
 });
 
 require __DIR__.'/auth.php';
