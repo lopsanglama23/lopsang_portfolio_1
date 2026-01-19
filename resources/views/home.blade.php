@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lopsang | Senior Creative Developer</title>
+    <title>Lopsang | Lama</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -46,30 +46,30 @@
             transform: translateY(0);
         }
 
-        /* Cursor Trail */
-        .cursor-dot {
-            width: 8px;
-            height: 8px;
-            background: var(--brand-cyan);
-            border-radius: 50%;
-            position: fixed;
-            pointer-events: none;
-            z-index: 10000;
-            mix-blend-mode: difference;
-            transition: transform 0.2s ease;
-            transform: translate(-50%, -50%);
-        }
-        .cursor-outline {
-            width: 40px;
-            height: 40px;
-            border: 2px solid rgba(34, 211, 238, 0.5);
-            border-radius: 50%;
-            position: fixed;
-            pointer-events: none;
-            z-index: 10000;
-            transition: all 0.15s ease;
-            transform: translate(-50%, -50%);
-        }
+        /*!* Cursor Trail *!*/
+        /*.cursor-dot {*/
+        /*    width: 8px;*/
+        /*    height: 8px;*/
+        /*    background: var(--brand-cyan);*/
+        /*    border-radius: 50%;*/
+        /*    position: fixed;*/
+        /*    pointer-events: none;*/
+        /*    z-index: 10000;*/
+        /*    mix-blend-mode: difference;*/
+        /*    transition: transform 0.2s ease;*/
+        /*    transform: translate(-50%, -50%);*/
+        /*}*/
+        /*.cursor-outline {*/
+        /*    width: 40px;*/
+        /*    height: 40px;*/
+        /*    border: 2px solid rgba(34, 211, 238, 0.5);*/
+        /*    border-radius: 50%;*/
+        /*    position: fixed;*/
+        /*    pointer-events: none;*/
+        /*    z-index: 10000;*/
+        /*    transition: all 0.15s ease;*/
+        /*    transform: translate(-50%, -50%);*/
+        /*}*/
 
         /* Enhanced Glassmorphism */
         .glass {
@@ -194,7 +194,7 @@
                         Available for Projects
                     </span>
                 <span>•</span>
-                <span>Kathmandu, Nepal</span>
+                <span>Lalitpur, Nepal</span>
             </div>
         </div>
 
@@ -222,12 +222,12 @@
 
         <div class="reveal mt-20 flex flex-wrap items-center justify-center gap-8 md:gap-12 text-sm text-gray-600">
             <div class="text-center">
-                <div class="text-3xl font-bold text-white mb-1">5+</div>
+                <div class="text-3xl font-bold text-white mb-1"></div>
                 <div>Years Experience</div>
             </div>
             <div class="w-px h-12 bg-white/10 hidden sm:block"></div>
             <div class="text-center">
-                <div class="text-3xl font-bold text-white mb-1">50+</div>
+                <div class="text-3xl font-bold text-white mb-1"></div>
                 <div>Projects Delivered</div>
             </div>
             <div class="w-px h-12 bg-white/10 hidden sm:block"></div>
@@ -474,8 +474,8 @@
             </div>
 
             <div class="text-center md:text-right">
-                <div class="text-gray-600 text-sm mb-2">© 2026 All Rights Reserved</div>
-                <div class="text-gray-700 text-xs">Designed & Built in Kathmandu 🇳🇵</div>
+{{--                <div class="text-gray-600 text-sm mb-2">© 2026 All Rights Reserved</div>--}}
+                <div class="text-gray-700 text-xs">Contact me</div>
             </div>
         </div>
     </div>
