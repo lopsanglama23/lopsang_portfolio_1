@@ -199,13 +199,13 @@
         </div>
 
         <h1 class="reveal text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter mb-10 leading-[0.9]">
-            <span class="inline-block hover:skew-y-2 transition-transform duration-300">Crafting</span>
+            <span class="inline-block hover:skew-y-2 transition-transform duration-300">Hello I'am </span>
             <br/>
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 gradient-animate">Digital Experiences</span>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 gradient-animate">Backend Developer</span>
         </h1>
 
         <div class="reveal text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
-            Senior developer specializing in <span id="typewriter" class="text-white font-medium border-b-2 border-cyan-500/50"></span>
+            Backend developer specializing in <span id="typewriter" class="text-white font-medium border-b-2 border-cyan-500/50"></span>
             <br/>
             <span class="text-base text-gray-500 mt-2 inline-block">Building scalable solutions with precision and creativity</span>
         </div>
