@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lopsang | Senior Creative Developer</title>
+    <title>Lopsang | Lama</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -29,7 +29,53 @@
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
         }
 
+<<<<<<< HEAD
         /* Glassmorphism Refinement */
+=======
+        /* Magnetic Button Effect */
+        .magnetic-btn {
+            position: relative;
+            transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        /* Smooth Reveal Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /*!* Cursor Trail *!*/
+        /*.cursor-dot {*/
+        /*    width: 8px;*/
+        /*    height: 8px;*/
+        /*    background: var(--brand-cyan);*/
+        /*    border-radius: 50%;*/
+        /*    position: fixed;*/
+        /*    pointer-events: none;*/
+        /*    z-index: 10000;*/
+        /*    mix-blend-mode: difference;*/
+        /*    transition: transform 0.2s ease;*/
+        /*    transform: translate(-50%, -50%);*/
+        /*}*/
+        /*.cursor-outline {*/
+        /*    width: 40px;*/
+        /*    height: 40px;*/
+        /*    border: 2px solid rgba(34, 211, 238, 0.5);*/
+        /*    border-radius: 50%;*/
+        /*    position: fixed;*/
+        /*    pointer-events: none;*/
+        /*    z-index: 10000;*/
+        /*    transition: all 0.15s ease;*/
+        /*    transform: translate(-50%, -50%);*/
+        /*}*/
+
+        /* Enhanced Glassmorphism */
+>>>>>>> main
         .glass {
             background: rgba(255, 255, 255, 0.02);
             backdrop-filter: blur(16px);
@@ -87,6 +133,7 @@
         </nav>
     </header>
 
+<<<<<<< HEAD
     <!-- HERO -->
     <section class="relative min-h-screen flex items-center justify-center pt-20">
         <div class="absolute inset-0 z-0 overflow-hidden">
@@ -102,6 +149,108 @@
             </h1>
             <div class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto font-light leading-relaxed">
                 Expert in crafting <span id="typewriter" class="text-white font-medium border-b-2 border-cyan-500/50"></span>
+=======
+            <!-- Mobile Menu -->
+            <div class="mobile-menu md:hidden" id="mobile-menu">
+                <div class="pt-6 pb-2 space-y-4">
+                    <a href="#skills" class="block text-sm font-medium text-gray-400 hover:text-white transition-colors">Expertise</a>
+                    <a href="#projects" class="block text-sm font-medium text-gray-400 hover:text-white transition-colors">Work</a>
+                    <a href="#contact" class="block text-sm font-medium text-gray-400 hover:text-white transition-colors">Connect</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+        <div class="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[140px] animate-float"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-purple-500/10 rounded-full blur-[140px] animate-float" style="animation-delay: -4s"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-pink-500/5 rounded-full blur-[120px] animate-float" style="animation-delay: -2s"></div>
+    </div>
+
+    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto">
+        <div class="reveal mb-8">
+            <p class="text-cyan-400 font-mono tracking-[0.3em] uppercase text-sm mb-3 opacity-80">Creative Technologist</p>
+            <div class="flex items-center justify-center gap-4 text-gray-500 text-xs">
+                    <span class="flex items-center gap-2">
+                        <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                        Available for Projects
+                    </span>
+                <span>•</span>
+                <span>Lalitpur, Nepal</span>
+            </div>
+        </div>
+
+        <h1 class="reveal text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter mb-10 leading-[0.9]">
+            <span class="inline-block hover:skew-y-2 transition-transform duration-300">Hello I'am </span>
+            <br/>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 gradient-animate">Backend Developer</span>
+        </h1>
+
+        <div class="reveal text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto font-light leading-relaxed mb-12">
+            Backend developer specializing in <span id="typewriter" class="text-white font-medium border-b-2 border-cyan-500/50"></span>
+            <br/>
+            <span class="text-base text-gray-500 mt-2 inline-block">Building scalable solutions with precision and creativity</span>
+        </div>
+
+        <div class="reveal mt-14 flex flex-col sm:flex-row items-center justify-center gap-6">
+            <a href="#projects" class="magnetic-btn group px-12 py-5 bg-gradient-to-r from-cyan-500 to-cyan-400 text-black font-bold rounded-2xl hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-500 flex items-center gap-3">
+                <span>Explore Work</span>
+                <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-2 transition-transform"></i>
+            </a>
+            <a href="#contact" class="magnetic-btn px-12 py-5 glass text-white font-bold rounded-2xl hover:scale-105 transition-all duration-300">
+                Get In Touch
+            </a>
+        </div>
+
+        <div class="reveal mt-20 flex flex-wrap items-center justify-center gap-8 md:gap-12 text-sm text-gray-600">
+            <div class="text-center">
+                <div class="text-3xl font-bold text-white mb-1"></div>
+                <div>Years Experience</div>
+            </div>
+            <div class="w-px h-12 bg-white/10 hidden sm:block"></div>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-white mb-1"></div>
+                <div>Projects Delivered</div>
+            </div>
+            <div class="w-px h-12 bg-white/10 hidden sm:block"></div>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-white mb-1">100%</div>
+                <div>Client Satisfaction</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <i data-lucide="chevron-down" class="w-6 h-6 text-gray-600"></i>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-32 relative">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="reveal mb-20 text-center">
+            <h2 class="text-5xl md:text-7xl font-black mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500">Technical Expertise</h2>
+            <p class="text-gray-500 text-lg max-w-2xl mx-auto">Mastering modern technologies to build exceptional digital products</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Frontend Development -->
+            <div class="reveal glass p-10 rounded-3xl group cursor-pointer">
+                <div class="mb-6 text-cyan-400">
+                    <i data-lucide="code-2" class="w-12 h-12 group-hover:scale-110 transition-transform duration-300"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-white">Frontend Development</h3>
+                <p class="text-gray-500 text-sm mb-6">React, Vue, Next.js</p>
+                <div class="relative">
+                    <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+                        <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="95%"></div>
+                    </div>
+                    <span class="text-xs text-gray-600 mt-2 block">95% Proficiency</span>
+                </div>
+>>>>>>> main
             </div>
 
             <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -155,6 +304,7 @@
                 </a>
             </div>
 
+<<<<<<< HEAD
             <div class="grid md:grid-cols-3 items-center gap-12">
                 <div class="flex items-center gap-4">
                      <svg viewBox="0 0 100 100" class="w-12 h-12">
@@ -170,6 +320,11 @@
                 <div class="text-right text-gray-600 text-sm">
                     © 2026 Lalitpur, Nepal
                 </div>
+=======
+            <div class="text-center md:text-right">
+{{--                <div class="text-gray-600 text-sm mb-2">© 2026 All Rights Reserved</div>--}}
+                <div class="text-gray-700 text-xs">Contact me</div>
+>>>>>>> main
             </div>
         </div>
     </footer>
