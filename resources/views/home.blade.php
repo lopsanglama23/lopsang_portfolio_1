@@ -447,7 +447,7 @@
                     <path d="M10,90 L50,10 L90,90 L70,90 L50,50 L30,90 Z" fill="url(#logoGrad2)" />
                 </svg>
                 <div>
-                    <span class="text-2xl font-black block">LOPSANG</span>
+                    <span class="text-2xl font-black block">LOPSANG LAMA</span>
                     <span class="text-xs text-gray-600">Creative Developer</span>
                 </div>
             </div>
