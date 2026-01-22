@@ -278,7 +278,7 @@
                     <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
                         <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="92%"></div>
                     </div>
-                    <span class="text-xs text-gray-600 mt-2 block">92% Proficiency</span>
+                    <span class="text-xs text-gray-600 mt-2 block">95% Proficiency</span>
                 </div>
             </div>
 
@@ -293,7 +293,7 @@
                     <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
                         <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="88%"></div>
                     </div>
-                    <span class="text-xs text-gray-600 mt-2 block">88% Proficiency</span>
+                    <span class="text-xs text-gray-600 mt-2 block">50% Proficiency</span>
                 </div>
             </div>
 
@@ -308,7 +308,7 @@
                     <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
                         <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="94%"></div>
                     </div>
-                    <span class="text-xs text-gray-600 mt-2 block">94% Proficiency</span>
+                    <span class="text-xs text-gray-600 mt-2 block">50% Proficiency</span>
                 </div>
             </div>
         </div>
