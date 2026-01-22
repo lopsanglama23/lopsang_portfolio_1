@@ -253,9 +253,209 @@
 >>>>>>> main
             </div>
 
+<<<<<<< HEAD
             <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
                 <a href="#projects" class="group px-10 py-5 bg-white text-black font-bold rounded-2xl hover:bg-cyan-400 transition-all duration-300 flex items-center gap-2">
                     View Projects <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+=======
+            <!-- Backend Engineering -->
+            <div class="reveal glass p-10 rounded-3xl group cursor-pointer">
+                <div class="mb-6 text-orange-400">
+                    <i data-lucide="server" class="w-12 h-12 group-hover:scale-110 transition-transform duration-300"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-white">Backend Engineering</h3>
+                <p class="text-gray-500 text-sm mb-6">Laravel, Node.js, APIs</p>
+                <div class="relative">
+                    <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+                        <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="92%"></div>
+                    </div>
+                    <span class="text-xs text-gray-600 mt-2 block">95% Proficiency</span>
+                </div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="reveal glass p-10 rounded-3xl group cursor-pointer">
+                <div class="mb-6 text-purple-400">
+                    <i data-lucide="palette" class="w-12 h-12 group-hover:scale-110 transition-transform duration-300"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-white">UI/UX Design</h3>
+                <p class="text-gray-500 text-sm mb-6">Figma, Responsive Design</p>
+                <div class="relative">
+                    <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+                        <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="88%"></div>
+                    </div>
+                    <span class="text-xs text-gray-600 mt-2 block">50% Proficiency</span>
+                </div>
+            </div>
+
+            <!-- Performance -->
+            <div class="reveal glass p-10 rounded-3xl group cursor-pointer">
+                <div class="mb-6 text-yellow-400">
+                    <i data-lucide="zap" class="w-12 h-12 group-hover:scale-110 transition-transform duration-300"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-3 text-white">Performance</h3>
+                <p class="text-gray-500 text-sm mb-6">Optimization, SEO</p>
+                <div class="relative">
+                    <div class="h-2 w-full bg-white/5 rounded-full overflow-hidden">
+                        <div class="skill-bar h-full bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full transition-all duration-1000 ease-out" style="width: 0" data-width="94%"></div>
+                    </div>
+                    <span class="text-xs text-gray-600 mt-2 block">50% Proficiency</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="reveal mt-24">
+            <h3 class="text-2xl font-bold mb-10 text-center text-gray-400">Technologies I Work With</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">React</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Vue.js</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Next.js</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Laravel</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Node.js</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">TypeScript</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Tailwind CSS</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">PostgreSQL</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Docker</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">AWS</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Git</span>
+                <span class="glass px-6 py-3 rounded-full text-sm font-medium hover:bg-white/10 transition-all cursor-default">Figma</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-32 bg-gradient-to-b from-[#080808] to-black relative">
+    <div class="absolute inset-0 opacity-30">
+        <div class="absolute top-20 right-20 w-72 h-72 bg-purple-500/20 rounded-full blur-[100px]"></div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="reveal flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-black mb-4">Featured Work</h2>
+                <p class="text-gray-400 text-xl">Selected projects that showcase my expertise</p>
+            </div>
+            <a href="#" class="magnetic-btn glass px-8 py-4 rounded-full text-sm font-medium hover:bg-white/10 transition-all flex items-center gap-2">
+                View All Projects
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+            </a>
+        </div>
+
+        <div class="space-y-24">
+            <!-- Project 1 -->
+            <div class="reveal group grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="relative overflow-hidden rounded-3xl bg-zinc-900 aspect-video shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="E-Commerce Platform">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-cyan-400 font-mono text-sm mb-4 uppercase tracking-wider">Full-Stack Development</p>
+                    <h3 class="text-4xl md:text-5xl font-black mb-6 group-hover:text-cyan-400 transition-colors">E-Commerce Platform</h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-8">Modern e-commerce solution with real-time inventory and payment processing</p>
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">Laravel</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">Vue.js</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">Stripe</span>
+                    </div>
+                    <a href="#" class="magnetic-btn inline-flex items-center gap-3 px-8 py-4 glass rounded-2xl font-semibold group/btn hover:bg-white/10 transition-all">
+                        <span>View Project</span>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="reveal group grid lg:grid-cols-2 gap-12 items-center">
+                <div class="lg:order-2">
+                    <div class="relative overflow-hidden rounded-3xl bg-zinc-900 aspect-video shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="Analytics Dashboard">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    </div>
+                </div>
+                <div class="lg:order-1">
+                    <p class="text-cyan-400 font-mono text-sm mb-4 uppercase tracking-wider">Data Visualization</p>
+                    <h3 class="text-4xl md:text-5xl font-black mb-6 group-hover:text-cyan-400 transition-colors">Analytics Dashboard</h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-8">Interactive dashboard for real-time business metrics and insights</p>
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">React</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">D3.js</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">Node.js</span>
+                    </div>
+                    <a href="#" class="magnetic-btn inline-flex items-center gap-3 px-8 py-4 glass rounded-2xl font-semibold group/btn hover:bg-white/10 transition-all">
+                        <span>View Project</span>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="reveal group grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="relative overflow-hidden rounded-3xl bg-zinc-900 aspect-video shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" alt="SaaS Application">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-cyan-400 font-mono text-sm mb-4 uppercase tracking-wider">Product Design</p>
+                    <h3 class="text-4xl md:text-5xl font-black mb-6 group-hover:text-cyan-400 transition-colors">SaaS Application</h3>
+                    <p class="text-gray-400 text-lg leading-relaxed mb-8">Enterprise SaaS platform with multi-tenant architecture</p>
+                    <div class="flex flex-wrap gap-3 mb-8">
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">Next.js</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">PostgreSQL</span>
+                        <span class="px-4 py-2 bg-white/5 rounded-full text-sm text-gray-400">AWS</span>
+                    </div>
+                    <a href="#" class="magnetic-btn inline-flex items-center gap-3 px-8 py-4 glass rounded-2xl font-semibold group/btn hover:bg-white/10 transition-all">
+                        <span>View Project</span>
+                        <i data-lucide="arrow-up-right" class="w-5 h-5 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact" class="relative pt-40 pb-12 border-t border-white/5 bg-gradient-to-b from-black to-[#050505]">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="reveal flex flex-col items-center text-center mb-32">
+            <p class="text-cyan-400 font-mono text-sm tracking-widest uppercase mb-6">Let's Collaborate</p>
+            <h2 class="text-5xl md:text-8xl font-black mb-8 tracking-tight leading-tight">
+                Ready to Build<br/>
+                <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400">Something Great?</span>
+            </h2>
+            <a href="mailto:lopsang900@gmail.com" class="magnetic-btn group text-2xl md:text-4xl font-light hover:text-cyan-400 transition-all mb-8 flex items-center gap-4">
+                <span class="border-b-2 border-cyan-400/30 group-hover:border-cyan-400">lopsang900@gmail.com</span>
+                <i data-lucide="arrow-up-right" class="w-8 h-8 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+            </a>
+            <p class="text-gray-500 max-w-xl">Open to exciting projects, collaborations, and full-time opportunities</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 items-center gap-12 pt-12 border-t border-white/5">
+            <div class="flex items-center gap-4">
+                <svg viewBox="0 0 100 100" class="w-12 h-12">
+                    <defs>
+                        <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="var(--brand-cyan)" />
+                            <stop offset="100%" stop-color="var(--brand-purple)" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M10,90 L50,10 L90,90 L70,90 L50,50 L30,90 Z" fill="url(#logoGrad2)" />
+                </svg>
+                <div>
+                    <span class="text-2xl font-black block">LOPSANG</span>
+                    <span class="text-xs text-gray-600">Creative Developer</span>
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-6">
+                <a href="#" class="w-12 h-12 rounded-full glass flex items-center justify-center hover:bg-white/10 transition-all group" aria-label="GitHub">
+                    <i data-lucide="github" class="w-5 h-5 group-hover:scale-110 transition-transform"></i>
+>>>>>>> main
                 </a>
                 <a href="#contact" class="px-10 py-5 glass text-white font-bold rounded-2xl hover:bg-white/5 transition-all">
                     Let's Chat
